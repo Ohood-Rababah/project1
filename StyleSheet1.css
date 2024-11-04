@@ -1,0 +1,202 @@
+﻿
+ ul{
+    display:inline-block;
+}
+  li  {
+        display: inline-block; 
+    }
+.link:link {
+    color:white;
+    text-decoration: none;
+    background-color:#3fa84c;
+}
+.link:visited{color:white;}
+
+.link {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: block;
+    margin-right: 80px;
+    margin-top:40px;
+    padding:4px 4px;
+}
+.link:hover{
+   color:white; background-color:#f78d41; transform:scale(1.5) ;
+}
+.btn:link {
+        color: white;
+        text-decoration: none;
+        background-color: #3fa84c;
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        border-radius: 6px;
+        text-align: center;
+        margin-top: 40px;
+        padding: 4px 4px;
+        text-decoration: none;
+        background-color: #3fa84c;
+    }
+.btn:hover {
+    color: white;
+    background-color: #f78d41;
+    transform: scale(1.5); 
+}
+.tst{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+.tst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn:link {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 4px 4px;
+    color: white;
+    text-decoration: none;
+    background: #0f7d1d;
+    margin-right: 40px;
+}
+
+.btn:visited {
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #f78d41;
+    transform:scale(1.5);
+}
+.body-home {
+    background-image: url('https://www.granmar.cl/wp-content/uploads/2019/07/bheader-1370x456.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.table {
+    color: #054d0e;
+    text-decoration: none;
+    background-color: #3fa84c;
+}
+h1 {
+    padding-left:80px;
+    font-style:italic;
+    font-size:80px;
+    color: #f2741a;
+}
+h2 {
+    color: white;
+    letter-spacing: 4px;
+    font-size:50px;
+    text-shadow:1px 1px 4px orange;
+}
+#p1 {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-shadow: 0 1px 1px orange;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    
+}
+    .social-media img {
+        width: 30px;
+        height: 30px;
+       margin:30px;
+    }
+
+.fotter {
+    background-color: #3fa84c;
+}
+
+.goal { font-size:25px;
+}
+.test {
+    font-size: 20px;
+    text-align:center;
+}
+.price {
+    font-weight: bold;
+    color:#0b5514;
+}
+.menu {
+    max-width: 800px;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 1px 0 10px #ed8236;
+    margin-left:20px;
+    padding-left:20px;
+}
+.body-menu {
+    background-image:url(img/b005e592-8368-4d20-8176-7343cdff1275.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+th{
+    font-size:20px;
+    text-align:left;
+    padding-bottom:10px;
+}
+
+/*about*/
+
+#about{
+    align-items:center;
+    background:#ffffff;
+    height:100vh;
+}
+#about .title{
+    text-align:center;
+    margin-bottom:4px;
+}
+#about .title p{font-size:20px; color:#9a9a9a; font-weight:600;}
+.size{font-size:40px;}
+.about-con p{width:90%;
+    text-align:left;}
+
+ .about-con{
+    display:flex;
+justify-content:space-between;
+
+}
+    .about-con img{
+        border-radius:50%;
+    }
+.about-con a {
+    background: #0f7d1d;
+    border-radius: 6px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    margin-left: 420px;
+}
+
+
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+h4 {
+    color: #ff6a00;
+    border-bottom: 1px dotted #ff6a00;
+    padding-bottom: 10px;
+}

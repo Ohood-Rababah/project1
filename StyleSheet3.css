@@ -1,0 +1,26 @@
+﻿.tst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn:link {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 4px 4px;
+    color:white;
+    text-decoration:none;
+    background:#0f7d1d;
+    margin-right:40px;
+}
+
+.btn:visited{
+    color:white;
+}
+.btn:hover {
+    color: white;
+    background-color: #f78d41;
+    transform: scale(1.5)
+}
